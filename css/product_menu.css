@@ -1,0 +1,50 @@
+상단 배너
+.banner{width: 100%; height: 500px;}
+.banner img{width: 100%; height: 500px;}
+
+/* 서브 메뉴 */
+.sub-menu{width: 90%; margin: auto; 
+    position: relative;
+}
+.sub-menu-list{list-style: none; display: 
+    flex;padding: 20px 0; justify-content: center; gap: 30px;}
+.sub-menu-list li{width: 70px; text-align: center; position: relative;}
+.sub-menu-list2{list-style: none; display: none;
+  position: absolute; top: 100%; left: 50%;
+  background-color: white;
+  white-space: nowrap; /* 줄바꿈 방지 */
+  transform: translateX(-50%);}
+.sub-menu-list2 li{width: auto; display: inline-block; padding: 5px; text-align: center;}
+.sub-menu-list>li>a:hover{color: #f08080;}
+.sub-menu-list li:hover .sub-menu-list2{display: flex;}
+.sub-menu-list2>li>a:hover{background-color: #ffdab9;}
+
+/* 이미지 갤러리 */
+.img-gallery{display: flex; width: 90%; height: 600px; 
+    margin: auto; padding: 20px 0 30px 0;text-align: center;}
+.img-gallery img{width: 100%; height: 100%; object-fit: contain; flex: 1;}
+
+.img-container {width: 100%; height: 100%; overflow: scroll; 
+    align-items: flex-start; flex: 1;}
+.img-container h4{padding: 10px 0; position: sticky; top: 0; 
+    background-color: #ffdab9;}
+
+.wrap-container {display: inline-block;}
+
+.img-wrap {width: 200px; height: 260px; text-align: center; display: inline-block; vertical-align: top;}
+.name{font-size: 15px;}
+.price{font-size: 14px;}
+.img-wrap img{width: 200px; height:200px;}
+
+/* 컬러피커 관련 */
+/* 베이스 */
+.base{display: inline-block;
+    width: 20px; height: 20px;
+    border-radius: 50% ;
+    overflow: hidden;}
+.color{visibility: hidden;}
+.base:nth-child(1){background-color: #f4d9d0;}
+.base:nth-child(2){background-color: #eed2c4;}
+.base:nth-child(3){background-color: #efd4c0;}
+.base:nth-child(4){background-color: #e8c6aa;}
+.base:nth-child(5){background-color: #e8c6a7;}  

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/cart.css">
+
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+    <title>Cosmetic 메인</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <a href="./index.html">💄COSMETIC💄</a> 
+        <div class="group">
+            <div class="menu-group">
+                <ul class="menu">
+                    <li>브랜드</li>
+                    <li><a href="./product_menu.html">제품</a>
+                        <ul class="menu-list">
+                            <li><a href="./product_menu.html">신제품</a></li>
+                            <li>베이스</li>
+                            <li>아이</li>
+                            <li>치크</li>
+                            <li>립</li>
+                        </ul>
+                    </li>
+                    <li>소식
+                        <ul class="menu-list">
+                            <li><a href="./event.html">이벤트</a></li>
+                            <li><a href="./notice.html">공지사항</a></li>
+                            <li>FAQ</li>
+                        </ul>
+                    </li>
+                    <li><a href="./login.html">로그인</a>
+                    </li>
+                    <li><a href="./cart.html">장바구니</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sns">
+                <a href="#"><img src="./images/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="./images/tik-tok.png" alt="tictok"></a>
+            </div>
+        </div>
+        <div class="coupon">
+            <span>신규회원 가입 이벤트</span>
+        </div>
+    </header>
+
+
+    <!-- 상단 배너 -->
+    <section class="top-banner">
+        <img src="./images/banner02.png" alt="">
+            <p>장바구니</p>
+    </section>
+
+
+    <!-- 메인 -->
+    <main>
+        <div class="table-wrap">
+            <table>
+                <tr>
+                    <th colspan="3">상품정보</th>
+                    <th>금액</th>
+                    <th>수량</th>
+                    <th>최종금액</th>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="./images/illust_cheek.png" alt="cheek"></td>
+                    <td>치크</td>
+                    <td>45,000원</td>
+                    <td>
+                        <select name="dropdown" id="dropdown">
+                            <option value="count">1</option>
+                            <option value="count">2</option>
+                            <option value="count">3</option>
+                            <option value="count">4</option>
+                            <option value="count">5</option>
+                            <option value="count">6</option>
+                            <option value="count">7</option>
+                            <option value="count">8</option>
+                            <option value="count">9</option>
+                            <option value="count">10</option>
+                        </select>
+                    </td>
+                    <td>45,000원</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="./images/illust_lipgloss.png" alt="lipgloss"></td>
+                    <td>립</td>
+                    <td>45,000원</td>
+                    <td>
+                        <select name="dropdown" id="dropdown">
+                            <option value="count">1</option>
+                            <option value="count">2</option>
+                            <option value="count">3</option>
+                            <option value="count">4</option>
+                            <option value="count">5</option>
+                            <option value="count">6</option>
+                            <option value="count">7</option>
+                            <option value="count">8</option>
+                            <option value="count">9</option>
+                            <option value="count">10</option>
+                        </select>
+                    </td>
+                    <td>45,000원</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="./images/illust_foundation.png" alt="foundation"></td>
+                    <td>파운데이션</td>
+                    <td>45,000원</td>
+                    <td>
+                        <select name="dropdown" id="dropdown">
+                            <option value="count">1</option>
+                            <option value="count">2</option>
+                            <option value="count">3</option>
+                            <option value="count">4</option>
+                            <option value="count">5</option>
+                            <option value="count">6</option>
+                            <option value="count">7</option>
+                            <option value="count">8</option>
+                            <option value="count">9</option>
+                            <option value="count">10</option>
+                        </select>
+                    </td>
+                    <td>45,000원</td>
+                </tr>
+            </table>
+        </div>
+        <div class="info-wrap">
+            <div class="info">
+                <h3>주문정보</h3>
+                    <div class="amount-wrap">
+                        <p>주문금액</p>
+                        <p class="amount">0</p>
+                    </div>
+                    <div class="amount-wrap">
+                        <p>총 할인 금액</p>
+                        <p class="amount">0</p>
+                    </div>
+                    <div class="amount-wrap">
+                        <p>배송비</p>
+                        <p class="amount">2,500원</p>
+                    </div>
+            </div>
+
+            <p>결제 예정 금액</p>
+            <p class="amount">0</p>
+
+            <div class="btn">
+                <p>선물하기</p>
+                <p>구매하기</p>
+            </div>
+        </div>
+    </main>
+    
+
+    <!-- 하단 -->
+    <footer>
+    <p>저작권 : 개인 포트폴리오 상용 목적X<br>
+        이미지 출처 사이트 : https://pixabay.com/<br>https://www.irasutoya.com/<br>https://www.youtube.com/@amuse__official/shorts
+    </p>
+    </footer>
+
+</body>
+</html>

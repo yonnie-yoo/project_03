@@ -1,0 +1,34 @@
+section{width: 90%; margin: 0 auto;}
+
+/* 주문 */
+.top{display: flex; justify-content: center; gap: 100px;}
+.dropdown-wrap, .amount, .btn{margin: 10px 0;}
+.top img{width: 400px; height: 400px; }
+.buy{width: 400px; height: auto;}
+.product-name{height: auto; padding: 10px 0; font-size: 20px;}
+.amount{height: 30px; text-align: end; line-height: 30px;}
+.total{height: 30px; text-align: center; line-height: 30px;}
+
+.dropdown-wrap {display: flex; height: 50px;}
+label{flex: 1; line-height: 50px; text-align: center;}
+select{flex: 3;}
+
+.btn-wrap{display: flex; justify-content: space-around; margin-top: 10px;}
+.btn_1, .btn_2{width: 180px; height: 40px; text-align: center; line-height: 40px;
+border-radius: 10px; margin: 0; border: 1px solid #f08080;}
+.btn_2{background-color: #f08080; color: white;}
+
+.btn_1:hover, .btn_2:hover{cursor: pointer;
+    background-color: #f08080; color: white;}
+
+.delivery{margin-top: 10px; word-break: break-all; border: 1px solid gray;}
+.delivery p{padding: 10px 0;}
+
+/* 리뷰 */
+h3{text-align: center; padding: 100px 0 30px 0;}
+.review{display: flex; gap: 10px; justify-content: space-around;
+    overflow-x: auto;}
+.review-wrap{width: 200px; height: 300px; overflow: hidden;}
+.review-wrap img{width: 100%; height: 200px; object-fit: contain;}
+.review-wrap p{height: 100%; word-break: break-all;text-align: center;}
+button{height: 100px;}

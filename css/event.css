@@ -1,0 +1,28 @@
+/* 상단 배너 */
+.top-banner{width: 100%; height: 100px; text-align: center;}
+.top-banner img{width: 520px; height: 100px; position: absolute; top: 100px; right:700px;}
+.txt{display: flex; justify-content: center; gap: 30px;
+    position: relative; top: 35px; right: 10px;
+    text-align: center; width: 500px; margin: auto;
+    font-size: 20px; font-weight: 800;}
+.txt a{display: block; width: 100px; color: white;}
+.txt a:hover{color: black;}
+
+/* 본문 */
+.note{width: 90%; height: 600px; margin: auto; margin-top: 30px;}
+
+/* 서브 메뉴 */
+.sub-menu{flex: 1; }
+.sub-menu a{display: block; width: 100%; text-align: center; padding: 10px 0;}
+.sub-menu a:hover{background-color: #ffdab9;}
+
+/* 게시판 */
+.note{flex: 9; text-align: center; overflow-y: scroll;}
+.note-wrap{width: 300px; height: 200px; display: inline-block; margin: 20px 10px;
+border: 1px solid #f08080; border-radius: 10px; font-size: 17px;} 
+
+/* 이미지 */
+.note-wrap img{width: 250px; height: 200px;}
+
+/* 하단 */
+footer{width: 100%; height: 200px;}

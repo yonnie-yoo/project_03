@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+    <title>Cosmetic 메인</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <a href="./index.html">💄COSMETIC💄</a>
+        <div class="group"> 
+            <div class="menu-group">
+                <ul class="menu">
+                    <li>브랜드</li>
+                    <li><a href="./product_menu.html">제품</a>
+                        <ul class="menu-list">
+                            <li><a href="./product_menu.html">신제품</a></li>
+                            <li>베이스</li>
+                            <li>아이</li>
+                            <li>치크</li>
+                            <li>립</li>
+                        </ul>
+                    </li>
+                    <li>소식
+                        <ul class="menu-list">
+                            <li><a href="./event.html">이벤트</a></li>
+                            <li><a href="./notice.html">공지사항</a></li>
+                            <li>FAQ</li>
+                        </ul>
+                    </li>
+                    <li><a href="./login.html">로그인</a></li>
+                    <li><a href="./cart.html">장바구니</a></li>
+                </ul>
+            </div>
+            <div class="sns">
+                <a href="#"><img src="./images/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="./images/tik-tok.png" alt="tictok"></a>
+            </div>
+        </div>
+        <div class="coupon">
+            <span>신규회원 가입 이벤트</span>
+        </div>
+    </header>
+    <main>
+        <!-- 배너 -->
+        <section class="main_slide">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+            centered-slides="true" autoplay-delay="2700" autoplay-disable-on-interaction="false">
+                <swiper-slide><img src="./images/banner2.jpg" alt="slide1"></swiper-slide>
+                <swiper-slide><img src="./images/cosmetics-1063134_1920.jpg" alt="slide2"></swiper-slide>
+            </swiper-container>
+        
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+        </section>
+
+        <!-- 서브메뉴 -->
+        <section class="sub-menu">
+            <div class="sub-group">
+               <a href="./product_menu.html"><img src="./images/sub_new.png" alt="sub-menu1">
+                <p>신제품</p></a>
+            </div>
+
+            <div class="sub-group">
+                <a href=""><img src="./images/sub_combi.png" alt="sub-menu2">
+                <p>베스트셀러</p></a>
+            </div>
+
+            <div class="sub-group">
+                <a href=""><img src="./images/sub_best.png" alt="sub-menu3">
+                <p>추천조합</p></a>
+            </div>
+
+            <div class="sub-group">
+                <a href=""><img src="./images/illust_foundation.png" alt="sub-menu4">
+                <p>베이스</p></a>
+            </div>
+
+            <div class="sub-group">
+                <a href=""><img src="./images/makeup_tsukematsuge.png" alt="sub-menu5">
+                <p>아이</p></a>
+            </div>
+
+            <div class="sub-group">
+                <a href=""><img src="./images/illust_cheek3.jpg" alt="sub-menu6">
+                <p>치크</p></a>
+            </div>
+
+            <div class="sub-group">
+                <a href=""><img src="./images/kuchibiru.png" alt="sub-menu7">
+                <p>립</p></a>
+            </div>
+        </section>
+
+        <!-- 검색창 -->
+        <section>
+            <div class="search-box">
+                <input type="text" placeholder="제품명 / 키워드로 검색">
+                <a><img src="./images/zoom_icon.png" alt="search"></a>
+            </div>
+        </section>
+
+        <!-- 신제품 배너 -->
+        <section class="new">
+            <h2>NEW</h2>
+            <div class="new_slide">
+                <swiper-container class="mySwiper" navigation="true">
+                <swiper-slide>
+                    <img src="./images/illust_model3.png" alt="model_photo">
+                    <div class="new-group-wrap">
+                        <div class="new-group">
+                            <a href="./product_info.html"><img src="./images/illust_pressed_powder.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p></a>
+                        </div>
+
+                        <div class="new-group">
+                            <a href="#"><img src="./images/illust_eyeshadow.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p></a>
+                        </div>
+
+                        <div class="new-group">
+                            <a href="#"><img src="./images/illust_cheek.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p></a>
+                        </div>
+
+                        <div class="new-group">
+                            <a href="#"><img src="./images/illust_lip.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p></a>
+                        </div>
+                    </div>
+                </swiper-slide>
+            
+                <swiper-slide>
+                    <img src="./images/illust_model.png" alt="model_photo">
+                    <div class="new-group-wrap">
+                        <div class="new-group">
+                            <a href="#"><img src="./images/illust_pressed_powder.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p></a>
+                        </div>
+
+                        <div class="new-group">
+                            <a href="#"><img src="./images/illust_eyeshadow.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p></a>
+                        </div>
+
+                        <div class="new-group">
+                            <a href="#"><img src="./images/illust_cheek.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p></a>
+                        </div>
+
+                        <div class="new-group">
+                            <a href="#"><img src="./images/illust_lip.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p></a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                </swiper-container>
+            
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+            </div>
+        </section>
+
+        <!-- 베스트셀러 슬라이드 -->
+        <section class="bestseller">
+            <h2>BESTSELLER</h2>
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="5"
+            space-between="10" free-mode="true">
+                <swiper-slide>
+                    <div class="best-group">
+                        <a href="#">
+                        <img src="./images/illust_foundation.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p>
+                        </a>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="best-group">
+                        <a href="#">
+                        <img src="./images/illust_loose_powder.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p>
+                        </a>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="best-group">
+                        <a href="#">
+                        <img src="./images/illust_lipgloss.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p>
+                        </a>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="best-group">
+                        <a href="#">
+                        <img src="./images/illust_pressed_powder.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p>
+                        </a>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="best-group">
+                        <a href="#">
+                        <img src="./images/illust_do-ran.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p>
+                        </a>
+                    </div>
+                </swiper-slide>
+                
+                <swiper-slide>
+                    <div class="best-group">
+                        <a href="#">
+                        <img src="./images/illust_eyeshadow.png" alt="product">
+                            <p>제품명</p>
+                            <p>금액</p>
+                        </a>
+                    </div>
+                </swiper-slide>
+            
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+            
+        </section>
+
+        <!-- 숏츠 슬라이드 -->
+        <h2>SHORTS</h2>
+        <!-- 체크박스 (팝업 제어용) -->
+        <input type="checkbox" id="popup1">
+        <input type="checkbox" id="popup2">
+        <input type="checkbox" id="popup3">
+
+        <!-- 갤러리 -->
+        <div class="gallery">
+            <!-- Preview 1 -->
+            <label for="popup" class="preview-box">
+            <iframe width="482" height="857" src="https://www.youtube.com/embed/wnW4VO44NRY" title="NEW 에어리 포어 커버 쿠션" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </label>
+
+            <!-- Preview 2 -->
+            <label for="popup" class="preview-box">
+            <iframe width="482" height="857" src="https://www.youtube.com/embed/a5Iy8JsMf0A" title="어뮤즈 NEW 꽃 아이 팔레트" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+            </label>
+
+            <!-- Preview 3 -->
+            <label for="popup" class="preview-box">
+            <iframe width="482" height="857" src="https://www.youtube.com/embed/xqHz9K7_6vo" title="어뮤즈 세라믹 쿠션 NEW 발레리나 한정 에디션 🎀🩰 #어뮤즈 #amuse #장원영 #jangwonyoung" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+            </label>
+
+            <label for="popup" class="preview-box">
+            <iframe width="482" height="857" src="https://www.youtube.com/embed/JZJqN35zBEI" title="어뮤즈 파우더 벨벳 틴트  #어뮤즈 #amuse #장원영 #jangwonyoung" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </label>
+            </div>
+
+        <!-- 팝업 1 -->
+        <div class="popup-overlay popup">
+            <label for="popup">닫기 ✕</label>
+            <div class="popup-content">
+            <iframe src="https://www.youtube.com/embed/영상ID1?autoplay=1&mute=1&playsinline=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- 팝업 2 -->
+        <div class="popup-overlay popup">
+            <label for="popup">닫기 ✕</label>
+            <div class="popup-content">
+            <iframe src="https://www.youtube.com/embed/영상ID2?autoplay=1&mute=1&playsinline=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- 팝업 3 -->
+        <div class="popup-overlay popup">
+            <label for="popup">닫기 ✕</label>
+            <div class="popup-content">
+            <iframe src="https://www.youtube.com/embed/영상ID3?autoplay=1&mute=1&playsinline=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+            <div class="popup-overlay popup">
+            <label for="popup">닫기 ✕</label>
+            <div class="popup-content">
+            <iframe src="https://www.youtube.com/embed/영상ID3?autoplay=1&mute=1&playsinline=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </main>
+
+        <!-- 하단 -->
+        <footer>
+            <p>저작권 : 개인 포트폴리오 상용 목적X<br>
+        이미지 출처 사이트 : https://pixabay.com/<br>https://www.irasutoya.com/<br>https://www.youtube.com/@amuse__official/shorts
+            </p>
+        </footer>
+</body>
+</html>

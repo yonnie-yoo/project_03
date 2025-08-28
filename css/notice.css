@@ -1,0 +1,24 @@
+/* 상단 배너 */
+.top-banner{width: 100%; height: 100px; text-align: center;}
+.top-banner img{width: 520px; height: 100px; position: absolute; top: 100px; right:700px;}
+.txt{display: flex; justify-content: center; gap: 30px;
+    position: relative; top: 35px; right: 10px;
+    text-align: center; font-size: 20px; font-weight: 800;
+    width: 500px; margin: auto;}
+.txt a{display: block; width: 100px; color: white;}
+.txt a:hover{color: black;}
+
+/* 게시판 */
+.note{width: 90%; height: 600px; margin: auto; margin-top: 30px; 
+    text-align: center; overflow-y: scroll;}
+table{width: 90%; border-collapse: collapse; margin: auto;
+table-layout: fixed;}
+th{height: 50px;}
+td{height: 70px; }
+tr{border-top:1px solid #f08080;
+border-bottom: 1px solid #f08080;}
+tr:nth-child(1){border-top: none; border-bottom: 2px double #f08080;}
+th:nth-child(1){width: 10%;}
+th:nth-child(2){width: 70%;}
+th:nth-child(3){width: 10%;}
+th:nth-child(4){width: 10%;}
